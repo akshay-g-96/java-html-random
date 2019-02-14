@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link href="/login.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="login-page">
+		<div class="form">
+		
+		<p class="success">Successfully logged in!!</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$('.message a').click(function(){
+			$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+		});
+	</script>
+</body>
+</html> 
+<!-- var express = require('express')
+var app = express()
+ 
+ 
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+ 
+ app.get('/name',function(req,res){res.send('akshay');})
+app.listen(3000);
+
+/var express = require('express')
+// var bodyParser= require('body-parser');
+// var app = express()
+ 
+//  app.use(express.static('public'));
+//  app.use(bodyParser.urlencoded({executed:false}));
+
+// app.get('/', function (req, res) {
+//   res.sendfile('public/login.html',{root:__dirname});
+// })
+ 
+//  app.post('/name',function(req,res){res.send('akshay');})
+//  app.post('/login',function(req,res)
+//  	{console.log(req.body);
+//  	var login=req.body.username;
+//  	var password=req.body.password;
+//  	if(login=='akshay'&&password=='akshay')res.sendfile('public/success.html',{root:__dirname});
+//  	else res.sendfile('public/error.html',{root:__dirname});
+ 
+ 		
+ 	
+//  	})
+// app.listen(3000); -->

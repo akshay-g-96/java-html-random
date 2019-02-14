@@ -1,0 +1,11 @@
+{
+  "name": "akshay",
+  "version": "1.0.0",
+  "description": "a small project",
+  "main": "mysecond.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akshay",
+  "license": "ISC"
+}
